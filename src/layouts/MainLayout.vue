@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          Links
         </q-item-label>
 
         <EssentialLink
@@ -51,47 +51,35 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
+    title: 'Dev',
+    caption: 'guilherme.dev',
     icon: 'school',
     link: 'https://quasar.dev'
   },
   {
     title: 'Github',
-    caption: 'github.com/quasarframework',
+    caption: 'https://github.com/guilerm3',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: 'https://github.com/guilerm3'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
+    title: 'Whatsapp',
+    caption: 'chat.whatsapp.com',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    link: 'https://api.whatsapp.com/send/?phone=5531988884037&text&type=phone_number&app_absent=0'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
+    title: 'Instagram',
+    caption: '@guiaugusto_22',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    link: 'https://www.instagram.com/guiaugusto_22/'
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
+    title: 'Linkedin',
+    caption: 'linkedin.com/in/guilerm3/',
     icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    link: 'https://www.linkedin.com/in/guilerm3/'
   },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
 ]
 
 const leftDrawerOpen = ref(false)
